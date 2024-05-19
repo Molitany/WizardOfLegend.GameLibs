@@ -1,7 +1,7 @@
 @echo off 
 
 @REM Add all the assemblies you want to publicize in this list
-set toPublicize=Assembly-CSharp.dll Assembly-CSharp-firstpass.dll
+set toPublicize=Assembly-CSharp.dll Assembly-CSharp-firstpass.dll Rewired_Core.dll UnityEngine.UI.dll UnityEngine.Networking.dll
 
 @REM Add all the assemblies you want to copy as-is to the package in this list
 set dontTouch=
